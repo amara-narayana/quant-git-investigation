@@ -1,12 +1,13 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-    double price = 100.50;
-    double quantity = 10;
 
-    double position = price * quantity;
-
-    std::cout << "Position value: " << position << '\n';
+    double stockPrice, quantity, postionValue;
+    stockPrice = 150.25;
+    quantity = 20;
+    postionValue = stockPrice * quantity;
+    cout << "Position value: " << postionValue << endl;
 
     return 0;
+
 }
